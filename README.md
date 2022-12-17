@@ -1,2 +1,3 @@
-# aoc22
-Advent of Code 2022 - solutions in Python and C#
+# Advent of Code 2022
+My solutions to the problems in Python (C# solutions to come). 
+Day 7 and Day 11 are yet to be completed.
