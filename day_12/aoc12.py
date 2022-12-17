@@ -1,7 +1,7 @@
 import numpy as np
 
 # Parse input data as an array of heights ('a' --> 0, 'z' --> 25)
-with open("aoc12_input.txt") as fh:
+with open("day_12/aoc12_input.txt") as fh:
     aoc_input = fh.read()
     aoc_input = aoc_input.splitlines()
 

@@ -1,5 +1,5 @@
 # Parse input data as list of moves - (0, 0) for 'noop' and (1, X) for 'addx X'
-with open("aoc10_input.txt") as fh:
+with open("day_10/aoc10_input.txt") as fh:
     aoc_input = fh.read()
     aoc_input = aoc_input.splitlines()
 
