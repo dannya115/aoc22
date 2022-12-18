@@ -31,7 +31,7 @@ def operation(idx, item):
         item = item + 5
     
     # return item // 3
-    return item
+    return item % (5 * 17 * 2 * 7 * 3 * 11 * 13 * 19)
 
 # test - takes in monkey index and item after operations, returns monkey to go to
 def test(idx, item):
@@ -97,9 +97,6 @@ def part_2():
             while len(monkey_items) > 0:
                 current_item = monkey_items.pop(0)
                 new_item = operation(idx, current_item)
-
-                
-
                 new_index = test(idx, new_item)
                 all_items[new_index] += [new_item]
                 
